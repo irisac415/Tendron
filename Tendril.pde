@@ -29,7 +29,7 @@ class Tendril
      myAngle += (Math.random()*0.4-0.2);
      endX = startX + (int)(Math.cos(myAngle)*SEG_LENGTH);
      endY = startY + (int)(Math.sin(myAngle)*SEG_LENGTH);
-     System.out.println("startX " + startX + " startY " + startY + " endX " + endX + " endY " + endY + " change " + (int)(Math.cos(myAngle)*SEG_LENGTH));
+     //System.out.println("startX " + startX + " startY " + startY + " endX " + endX + " endY " + endY + " change " + (int)(Math.cos(myAngle)*SEG_LENGTH));
      line(startX,startY,endX,endY);
      startX = endX;
      startY = endY;
